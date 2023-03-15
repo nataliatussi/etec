@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Controle de Estoque de Gravatas</title>
+    <link rel="stylesheet" href="geral.css">
+    </head>
+  <body>
+    <header>
+      <h1>Controle de Estoque de Gravatas</h1>
+      <nav>
+        <button id="btn-add-item">Relatorios</button>
+        <button id="btn-add-item">Adicionar novo item</button>
+        </nav>
+    </header>
+    <main>
+      <section id="dados-gerais">
+        <h2>Dados Gerais</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Código</th>
+              <th>Quantidade</th>
+              <th>Unidade de Medida</th>
+              <th>Custo de Aquisição</th>
+              <th>Preço de Venda</th>
+              <th>Fornecedor</th>
+              <th>Data de Entrada</th>
+              <th>Data de Validade</th>
+              <th>Localização</th>
+              <th>Nível Mínimo</th>
+              <th>Nível Máximo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>001</td>
+              <td>200</td>
+              <td>unidades</td>
+              <td>R$ 5,00</td>
+              <td>R$ 10,00</td>
+              <td>Fornecedor A</td>
+              <td>01/01/2022</td>
+              <td>-</td>
+              <td>Prateleira 1</td>
+              <td>50</td>
+              <td>500</td>
+            </tr>
+            <tr>
+              <td>002</td>
+              <td>150</td>
+              <td>unidades</td>
+              <td>R$ 7,50</td>
+              <td>R$ 15,00</td>
+              <td>Fornecedor B</td>
+              <td>02/01/2022</td>
+              <td>30/06/2022</td>
+              <td>Prateleira 2</td>
+              <td>30</td>
+              <td>300</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="movimentacoes">
+        <h2>Movimentações</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Código</th>
+              <th>Tipo</th>
+              <th>Quantidade</th>
+              <th>Localização</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>05/01/2022</td>
+              <td>001</td>
+              <td>Saída</td>
+              <td>50</td>
+              <td>Prateleira 1</td>
+            </tr>
+            <tr>
+              <td>08/01/2022</td>
+              <td>002</td>
+              <td>Entrada</td>
+              <td>20</td
+
+                <!-- ... conteúdo da tabela... -->
+ </tabela>
+ <form id="form-new-item" action="adicionar_item.php" method="post">
+ <label>Código:</label>
+ <input type="text" name="code">
+ <br>
+ <rótulo>Quantidade:</rótulo>
+ <input type="text" name="quantity">
+ <br>
+ <label>Unidade de Medida:</label>
+ <input type="text" name="unit">
+ <br>
+ <label>Custo de Aquisição:</label>
+ <input type="text" name="cost">
+ <br>
+ <label>Preço de Venda:</label>
+ <input type="text" name="price">
+ <br>
+ <label>Fornecedor:</label>
+ <input type="text" name="supplier">
+ <br>
+ <label>Data de Entrada:</label>
+ <input type="date" name="entry-date">
+ <br>
+ <label>Data de Validade:</label>
+ <input type="date" name="expiry-date">
+</formulário>
+ </seção>
+
