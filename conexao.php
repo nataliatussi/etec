@@ -30,3 +30,5 @@ while ($row = mysqli_fetch_assoc($result)) {
 // Fecha a conexão com o banco de dados
 mysqli_close($conn);
 ?>
+
+// Fecha a conexão com o banco de dados
